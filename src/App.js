@@ -14,19 +14,16 @@ export default function App() {
   const handleChangeName = (event) => {
     const { value } = event.target
     setName(value)
-    console.log(name)
   }
 
   const handleChangeWhatsapp = (event) => {
     const { value } = event.target
     setWhatsapp(value)
-    console.log(whatsapp)
   }
 
   const handleChangeEmail = (event) => {
     const { value } = event.target
     setEmail(value)
-    console.log(email)
   }
 
   const sendRequest = async () => {

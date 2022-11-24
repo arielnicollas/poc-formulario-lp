@@ -1,8 +1,6 @@
 import React, { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import db from './firebase';
 
-import { FirestoreProvider } from 'react-firestore';
 import App from './App';
 
 
